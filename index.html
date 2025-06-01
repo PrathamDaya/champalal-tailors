@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champlal Tailors - Custom Blouse Specialists</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Champlal Tailors</a>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="animate-on-scroll fade-in-down">Champlal Tailors</h1>
+            <p class="animate-on-scroll fade-in-up delay-1">40 Years of Exquisite Ladies' Blouse Tailoring.</p>
+            <p class="animate-on-scroll fade-in-up delay-2">Quality, Precision, and the Perfect Fit, Guaranteed.</p>
+            <a href="#contact" class="btn animate-on-scroll fade-in-up delay-3">Book an Appointment</a>
+        </div>
+    </section>
+
+    <section id="about" class="container section">
+        <h2 class="section-title animate-on-scroll fade-in">About Champlal Tailors</h2>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll slide-in-left">
+                <p>With <strong>four decades of professional tailoring experience</strong>, Champlal Tailors has been a trusted name in Mumbai for crafting perfectly fitted ladies' blouses. We pride ourselves on our loyal customer base, spanning three generations, who appreciate our dedication to quality and precision.</p>
+                <p>Our legacy is built on understanding the unique needs of each client, ensuring every garment is a testament to fine craftsmanship.</p>
+            </div>
+            <div class="about-image animate-on-scroll slide-in-right">
+                <img src="https://via.placeholder.com/500x350/E8E8E8/B0B0B0?text=Champlal+Tailors+Workshop" alt="Champlal Tailors Workshop">
+            </div>
+        </div>
+        <div class="differentiators animate-on-scroll fade-in-up">
+            <h3 class="sub-section-title">What Makes Us Unique?</h3>
+            <div class="differentiator-grid">
+                <div class="differentiator-item">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h4>Expert Measurements</h4>
+                    <p>Measurements taken by a lady with <strong>50 years of experience</strong>, ensuring unparalleled accuracy and comfort.</p>
+                </div>
+                <div class="differentiator-item">
+                    <i class="fas fa-cut"></i>
+                    <h4>On-Site Trial Room</h4>
+                    <p>Immediate adjustments and changes in our convenient on-site trial room for the perfect fit on your first visit.</p>
+                </div>
+                <div class="differentiator-item">
+                    <i class="fas fa-medal"></i>
+                    <h4>Decades of Trust</h4>
+                    <p>A loyal clientele built over 30 years, attesting to our consistent quality and service excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services-section bg-light">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in">Our Specialization</h2>
+            <div class="service-item animate-on-scroll fade-in-up">
+                <img src="https://via.placeholder.com/600x400/D0D0D0/808080?text=Custom+Blouse+Tailoring" alt="Custom Blouse Tailoring">
+                <h3>Custom Blouse Tailoring</h3>
+                <p>We specialize in creating bespoke ladies' blouses that are the epitome of quality and best fit. Whether it's for sarees, lehengas, or contemporary wear, we tailor each piece to your exact specifications and style preferences. Our focus is on delivering a garment that not only looks stunning but feels incredibly comfortable.</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Intricate Neck Designs</li>
+                    <li><i class="fas fa-check-circle"></i> Perfect Sleeve Fitting</li>
+                    <li><i class="fas fa-check-circle"></i> Wide Range of Fabric Compatibility</li>
+                    <li><i class="fas fa-check-circle"></i> Traditional and Modern Styles</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="container section">
+        <h2 class="section-title animate-on-scroll fade-in">Our Craftsmanship</h2>
+        <div class="gallery-tabs animate-on-scroll fade-in-up">
+            <button class="tab-button active" onclick="showGallery('designs')">Design Showcase</button>
+            <button class="tab-button" onclick="showGallery('before-after')">Before & After</button>
+        </div>
+
+        <div id="designs-gallery" class="gallery-grid animate-on-scroll fade-in-up">
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x400/C8C8C8/707070?text=Blouse+Design+1" alt="Blouse Design 1"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x400/C8C8C8/707070?text=Blouse+Design+2" alt="Blouse Design 2"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x400/C8C8C8/707070?text=Blouse+Design+3" alt="Blouse Design 3"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x400/C8C8C8/707070?text=Blouse+Design+4" alt="Blouse Design 4"></div>
+        </div>
+
+        <div id="before-after-gallery" class="gallery-grid animate-on-scroll fade-in-up" style="display:none;">
+            <div class="gallery-item before-after-item">
+                <img src="https://via.placeholder.com/300x200/E0E0E0/909090?text=Before+Fabric" alt="Before - Fabric">
+                <img src="https://via.placeholder.com/300x200/B0F0B0/50A050?text=After+Blouse" alt="After - Blouse">
+                <p>Transformation Example 1</p>
+            </div>
+            <div class="gallery-item before-after-item">
+                <img src="https://via.placeholder.com/300x200/E0E0E0/909090?text=Before+Adjustment" alt="Before - Adjustment">
+                <img src="https://via.placeholder.com/300x200/B0F0B0/50A050?text=After+Perfect+Fit" alt="After - Perfect Fit">
+                <p>Transformation Example 2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in">Customer Testimonials</h2>
+            <div class="reviews-grid">
+                <div class="review-card animate-on-scroll slide-in-left">
+                    <img src="https://via.placeholder.com/100x100/F0F0F0/A0A0A0?text=Customer+1" alt="Customer Photo" class="review-photo">
+                    <h4>Priya S.</h4>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Absolutely thrilled with my blouse! The fitting by the experienced aunty was perfect. Highly recommend Champlal Tailors."</p>
+                    <img src="https://via.placeholder.com/200x150/D8D8D8/606060?text=Blouse+Photo+1" alt="Tailored Blouse" class="review-cloth-photo">
+                </div>
+                <div class="review-card animate-on-scroll fade-in-up">
+                    <img src="https://via.placeholder.com/100x100/F0F0F0/A0A0A0?text=Customer+2" alt="Customer Photo" class="review-photo">
+                    <h4>Anita K.</h4>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Wonderful service and the on-site trial room is a game-changer. Got my blouse adjusted immediately. So happy!"</p>
+                     <img src="https://via.placeholder.com/200x150/D8D8D8/606060?text=Blouse+Photo+2" alt="Tailored Blouse" class="review-cloth-photo">
+                </div>
+                <div class="review-card animate-on-scroll slide-in-right">
+                    <img src="https://via.placeholder.com/100x100/F0F0F0/A0A0A0?text=Customer+3" alt="Customer Photo" class="review-photo">
+                    <h4>Rina M.</h4>
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"A loyal customer for 15 years! Champlal Tailors always delivers the best quality and fit. Unmatched expertise."</p>
+                </div>
+            </div>
+
+            <div class="add-review-section animate-on-scroll fade-in-up">
+                <h3 class="sub-section-title">Share Your Experience</h3>
+                <form id="review-form" class="review-form">
+                    <div class="form-group">
+                        <label for="reviewer-name">Your Name:</label>
+                        <input type="text" id="reviewer-name" name="reviewer-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Rating:</label>
+                        <div class="star-input">
+                            <i class="far fa-star" data-value="1"></i>
+                            <i class="far fa-star" data-value="2"></i>
+                            <i class="far fa-star" data-value="3"></i>
+                            <i class="far fa-star" data-value="4"></i>
+                            <i class="far fa-star" data-value="5"></i>
+                            <input type="hidden" name="rating" id="rating-value" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-text">Your Review:</label>
+                        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-photo-upload">Upload Photo of Your Blouse (Optional):</label>
+                        <input type="file" id="review-photo-upload" name="review-photo" accept="image/*">
+                        <small>Max file size: 2MB. Allowed types: JPG, PNG.</small>
+                        <img id="photo-preview" src="#" alt="Photo Preview" style="display:none; max-width: 200px; margin-top: 10px;">
+                    </div>
+                    <p class="review-form-notice"><strong>Note:</strong> Photo uploads and review submissions require backend integration. This form is a functional front-end demonstration.</p>
+                    <button type="submit" class="btn">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container section">
+        <h2 class="section-title animate-on-scroll fade-in">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-details animate-on-scroll slide-in-left">
+                <h3>Visit Our Shop</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Shop No.4, 97, Rd Number 10, Jawahar Nagar, Goregaon West, Mumbai, Maharashtra 400104</p>
+                <h3>Call or WhatsApp Us</h3>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919819561113" target="_blank">9819561113</a> (Click to chat)</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+919819561113">+91 9819561113</a></p>
+                 <h3>Business Hours</h3>
+                <p><i class="fas fa-clock"></i> Monday - Saturday: 10:00 AM - 8:00 PM</p>
+                <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+            </div>
+            <div class="contact-form-map animate-on-scroll slide-in-right">
+                <h3>Send Us a Message</h3>
+                <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                     <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="phone">Your Phone (Optional):</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="map-container animate-on-scroll fade-in-up">
+             <h3 class="sub-section-title">Our Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.369529194074!2d72.84286587590914!3d19.135339949716283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b614befe377f%3A0xb6779bca39103f88!2sChamplal%20Tailors!5e0!3m2!1sen!2sin!4v1717153000000!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Champlal Tailors. All Rights Reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> for tradition and quality.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
